@@ -17,6 +17,10 @@ ul li {
   list-style-type: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 header {
   margin-bottom: 5%;
 }
@@ -38,17 +42,33 @@ header {
 
 .notif-list,
 .mark-btn {
+  font-size: 13px;
+}
+
+.notif-list {
   color: hsl(219, 12%, 42%);
-  font-size: 14px;
+}
+
+.user-name,
+.user-group {
+  font-weight: bold;
 }
 
 .user-name {
   color: hsl(0, 0%, 0%);
-  font-weight: bold;
+}
+
+.user-group,
+.user-post,
+a {
+  color: hsl(219, 85%, 26%);
 }
 
 .notif-tile {
+  background-color: hsl(210, 60%, 98%);
   padding: 5%;
+  margin-bottom: 5%;
+  border-radius: 10px;
 }
 
 .notif-content {
@@ -56,7 +76,9 @@ header {
 }
 
 .notif-time {
+  display: block;
   color: hsl(219, 14%, 63%);
+  margin-top: 1%;
 }
 
 .notif-img {
@@ -66,6 +88,15 @@ header {
 
 .notif-img img {
   max-width: 2rem;
+}
+
+.posted-img {
+  text-align: right;
+}
+
+.posted-img img {
+  max-width: 70%;
+  height: auto;
 }
 
 .notif-description {
