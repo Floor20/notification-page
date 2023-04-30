@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.container {
+  padding: 8% 5%;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+header {
+  margin-bottom: 5%;
+}
+
+.notif-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.notif-heading {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.notif-number {
+  margin-left: 10%;
+}/*# sourceMappingURL=style.css.map */
