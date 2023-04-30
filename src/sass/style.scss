@@ -24,13 +24,54 @@ header {
 .notif-info {
   display: flex;
   justify-content: space-between;
+  align-items: end;
 }
 
 .notif-heading {
-  font-size: 20px;
-  font-weight: bold;
+  font-size: 18px;
+  font-weight: 800;
 }
 
 .notif-number {
-  margin-left: 10%;
+  margin-left: 5%;
+}
+
+.notif-list,
+.mark-btn {
+  color: hsl(219, 12%, 42%);
+  font-size: 14px;
+}
+
+.notif-list {
+}
+
+.user-name {
+  color: hsl(0, 0%, 0%);
+  font-weight: bold;
+}
+
+.notif-tile {
+  padding: 5%;
+}
+
+.notif-content {
+  display: flex;
+  // justify-content: space-between;
+}
+
+.notif-time {
+  color: hsl(219, 14%, 63%);
+}
+
+.notif-img {
+  width: 10%;
+  margin-right: 5%;
+}
+
+.notif-img img {
+  max-width: 2rem;
+}
+
+.notif-description {
+  width: 90%;
 }
