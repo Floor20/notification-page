@@ -24,6 +24,7 @@
       rel="stylesheet"
       href="assets/fonts/static/PlusJakartaSans-Medium.ttf"
     />
+    <script defer src="src/script.js"></script>
     <title>Frontend Mentor | Notifications page</title>
   </head>
 
@@ -32,7 +33,7 @@
       <header>
         <ul class="notif-info">
           <li class="notif-heading">
-            Notifications<span class="notif-number">3</span>
+            Notifications<span class="notif-number"></span>
           </li>
           <li class="mark-btn"><a href="#">Mark all as read</a></li>
         </ul>
@@ -49,8 +50,8 @@
               </li>
               <li class="notif-description">
                 <span class="user-name">Mark Webber</span> reacted to your
-                recent post
-                <a href="#">My first tournament today!</a>
+                recent post <a href="#">My first tournament today!</a
+                ><span class="red-dot"></span>
                 <span class="notif-time">1m ago</span>
               </li>
             </ul>
@@ -65,6 +66,7 @@
               </li>
               <li class="notif-description">
                 <span class="user-name">Angela Gray</span> followed you
+                <span class="red-dot"></span>
                 <span class="notif-time">5m ago</span>
               </li>
             </ul>
@@ -78,8 +80,10 @@
                 />
               </li>
               <li class="notif-description">
-                <span class="user-name">Jacob Thompson</span> joined your group
+                <span class="user-name">Jacob Thompson</span> has joined your
+                group
                 <span class="user-group">Chess Club</span>
+                <span class="red-dot"></span>
                 <span class="notif-time">1 day ago</span>
               </li>
             </ul>
@@ -95,6 +99,7 @@
               <li class="notif-description">
                 <span class="user-name">Rizky Hasanuddin</span> sent you a
                 private message
+                <span class="red-dot"></span>
                 <span class="notif-time">5 days ago</span>
                 <figure>
                   Hello, thanks for setting up the Chess Club. I've been a
@@ -115,6 +120,7 @@
               <li class="notif-description">
                 <span class="user-name">Kimberly Smith</span> commented on your
                 picture
+                <span class="red-dot"></span>
                 <span class="notif-time">1 week ago</span>
               </li>
               <li class="posted-img">
@@ -133,6 +139,7 @@
               <li class="notif-description">
                 <span class="user-name">Nathan Peterson</span> reacted to your
                 recent post 5 end-game strategies to increase your win rate
+                <span class="red-dot"></span>
                 <span class="notif-time">2 weeks ago</span>
               </li>
             </ul>
@@ -148,6 +155,7 @@
               <li class="notif-description">
                 <span class="user-name">Anna Kim</span> left the group
                 <span class="user-group">Chess Club</span>
+                <span class="red-dot"></span>
                 <span class="notif-time">2 weeks ago</span>
               </li>
             </ul>
