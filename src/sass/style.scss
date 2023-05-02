@@ -61,8 +61,13 @@ header {
   font-size: 13px;
 }
 
-.notif-list {
+.notif-list,
+.mark-btn a {
   color: hsl(219, 12%, 42%);
+}
+
+.mark-btn a:hover {
+  color: hsl(219, 85%, 26%);
 }
 
 .user-name,
@@ -72,6 +77,10 @@ header {
 
 .user-name {
   color: hsl(0, 0%, 0%);
+}
+
+.user-name:hover {
+  color: hsl(219, 85%, 26%);
 }
 
 .user-group,
@@ -122,6 +131,10 @@ a {
 
 .notif-description {
   width: 90%;
+}
+
+.notif-description a:hover {
+  font-weight: bold;
 }
 
 figure {
