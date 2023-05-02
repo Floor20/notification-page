@@ -15,8 +15,7 @@ const markAsRead = function () {
 
 const markAllAsRead = function () {
   notificationTiles.forEach((tile) => {
-    if (tile.style.backgroundColor !== "hsl(0, 0%, 100%)")
-      markAsRead.call(tile);
+    markAsRead.call(tile);
   });
 };
 
