@@ -154,13 +154,26 @@ figure:hover {
 /* ---------------------------------------------- */
 /* QUERIES */
 /* ---------------------------------------------- */
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 1300px) {
   .container {
     padding: 2% 2%;
     margin: 3% auto;
     max-width: 30%;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1);
   }
+  .notif-tile {
+    padding: 2%;
+    margin-bottom: 2%;
+  }
+  .notif-img {
+    margin-right: 2%;
+    width: 8%;
+  }
+  figure {
+    padding: 2%;
+  }
+}
+@media only screen and (min-width: 700px) {
   .notif-tile {
     padding: 2%;
     margin-bottom: 2%;
