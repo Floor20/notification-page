@@ -14,6 +14,7 @@ const markAsRead = function () {
 };
 
 const markAllAsRead = function () {
+  console.log(window);
   notificationTiles.forEach((tile) => {
     markAsRead.call(tile);
   });
