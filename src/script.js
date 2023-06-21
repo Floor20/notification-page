@@ -26,3 +26,18 @@ notificationTiles.forEach((tile) => {
 });
 
 markReadButton.addEventListener("click", markAllAsRead);
+
+const obj = {
+  A: {
+    1: "first",
+    second: "second",
+  },
+
+  2: 2,
+  B: "hello",
+  Account: "account",
+};
+
+console.log(obj);
+console.log(obj.A.second);
+console.log(obj["B"]);
